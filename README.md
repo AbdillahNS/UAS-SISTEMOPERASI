@@ -12,11 +12,11 @@
 
 ### Fitur
 
-|        |                       |                                                                                                |
+|        |                       |                                                                                                                                     |
 | ------ | --------------------- |  --------------------------------------------------------------------------------------------------------------------------------- |
-| **No** | **Fitur**             | **Detail**                                                                                                                        |
-| 1      | Lihat File            | Fitur ini memungkinkan pengguna untuk menampilkan file yang ada pada direktori saat ini.                                          |
-| 2      | Tambah File           | Fitur ini memungkinkan pengguna untuk membuat file dengan menentukan nama file dan jenisnya sesuai keinginannya dalam direktori.                 |
-| 3      | Hapus File            | Fitur ini memungkinkan pengguna untuk menghapus file yang ada dalam direktori dengan cara memasukan nama filenya.                       |
-| 4      | Download Manager      | Fitur ini memungkinkan pengguna untuk mengunduh file dengan memasukkan URL file yang ingin diunduh.                                      |
-| 5      | Cek Jaringan          | Fitur ini memungkinkan pengguna untuk melakukan tes koneksi jaringan.                                     |
+| **No** | **Fitur**             | **Detail**                                                                                                                         |
+| 1      | Lihat File            | Fitur ini memungkinkan pengguna untuk menampilkan file yang ada pada direktori saat ini.                                           |
+| 2      | Tambah File           | Fitur ini memungkinkan pengguna untuk membuat file dengan menentukan nama file dan jenisnya sesuai keinginannya dalam direktori.|
+| 3      | Hapus File            | Fitur ini memungkinkan pengguna untuk menghapus file yang ada dalam direktori dengan cara memasukan nama filenya.             |
+| 4      | Download Manager      | Fitur ini memungkinkan pengguna untuk mengunduh file dengan memasukkan URL file yang ingin diunduh.            |
+| 5      | Cek Jaringan          | Fitur ini memungkinkan pengguna untuk melakukan tes koneksi jaringan.                                                             |
