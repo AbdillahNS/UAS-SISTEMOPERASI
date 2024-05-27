@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 # Nama : Abdillah Noer Said
 # NIM : 2341720018
@@ -33,15 +33,29 @@ function downloadManager() {
     wget -c "$url"
 }
 
+function cekJaringan() {
+    alamat="google.com"
+    echo "Melakukan tes PING jaringan..."
+
+    ping -c 4 "$alamat"
+
+    if [ $? -eq 0 ]; then
+        echo "Jaringan terhubung."
+    else
+        echo "Jaringan terputus."
+    fi
+}
+
 while true; do
-    echo "-----------------------------------------"
+    echo "========================================="
     echo "Main Menu:"
     echo "1. Lihat file"
     echo "2. Tambah file"
     echo "3. Hapus file"
     echo "4. Downlaod Manager"
+    echo "5. Cek Jaringan"
     echo "0. Keluar"
-    echo "-----------------------------------------"
+    echo "====================="
 
     read -p "Masukkan Pilihan: " menu
 
@@ -50,7 +64,8 @@ while true; do
         2) tambahFile ;; 
         3) hapusFile ;;
         4) downloadManager ;;
+        5) cekJaringan ;;
         0) exit 0 ;;
         *) echo "Menu yang Anda masukkan tidak ada" ;;
-    esac
+    esac
 done
