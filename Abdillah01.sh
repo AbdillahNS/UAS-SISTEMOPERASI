@@ -48,7 +48,7 @@ function cekJaringan() {
 
 while true; do
     echo "========================================="
-    echo "Main Menu:"
+    echo "Daftar Menu:"
     echo "1. Lihat file"
     echo "2. Tambah file"
     echo "3. Hapus file"
